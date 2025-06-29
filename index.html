@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit Mental Health - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .contact-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        
+        .faq-answer {
+            color: #555;
+        }
+        
+        .app-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .feature {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .feature h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .crisis-warning {
+            background: #fff3cd;
+            border: 2px solid #ffeaa7;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        
+        .crisis-warning h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        
+        .crisis-warning p {
+            color: #856404;
+            font-weight: 500;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 15px;
+            }
+            
+            .card {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .app-features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <div class="logo">🌌</div>
+                <h1>Orbit Mental Health</h1>
+                <p class="subtitle">Privacy-focused AI mental health companion</p>
+            </div>
+            
+            <div class="crisis-warning">
+                <h3>⚠️ Crisis Support</h3>
+                <p>If you're experiencing a mental health crisis, please contact emergency services immediately or reach out to the National Suicide Prevention Lifeline at <strong>988</strong> (US) or your local crisis hotline.</p>
+            </div>
+            
+            <h2>📱 About Orbit</h2>
+            <p>Orbit is a privacy-first mental health app that provides on-device AI-powered CBT coaching, mood tracking, and mindfulness exercises. Our beautiful galaxy-themed interface makes mental wellness engaging and accessible.</p>
+            
+            <div class="app-features">
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h3>Mood Tracking</h3>
+                    <p>One-tap mood logging with insights and patterns</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🧠</div>
+                    <h3>CBT Coaching</h3>
+                    <p>AI-powered cognitive behavioral therapy guidance</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏃‍♂️</div>
+                    <h3>Habit Building</h3>
+                    <p>Micro-habits and wellness tracking</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🧘</div>
+                    <h3>Mindfulness</h3>
+                    <p>Guided meditation and breathing exercises</p>
+                </div>
+            </div>
+            
+            <h2>📞 Contact Support</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <span>Email: <a href="mailto:jamesbayless995@gmail.com">jamesbayless995@gmail.com</a></span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🕐</div>
+                    <span>Response Time: Within 24-48 hours</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🌍</div>
+                    <span>Support Hours: Monday - Friday, 9 AM - 5 PM PST</span>
+                </div>
+            </div>
+            
+            <h2>❓ Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Is my data private and secure?</div>
+                <div class="faq-answer">Yes! All your personal data is encrypted and stored locally on your device. We use industry-standard encryption and never share your personal information with third parties.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How does the AI coaching work?</div>
+                <div class="faq-answer">Our AI uses Google's Gemini AI with cognitive behavioral therapy (CBT) techniques to help reframe negative thoughts and provide personalized guidance. Your conversations are processed securely through Google's AI services.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can I sync my data across devices?</div>
+                <div class="faq-answer">Yes, with your permission, we offer secure cloud sync through Firebase with end-to-end encryption to keep your data synchronized across your devices.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Is Orbit a replacement for therapy?</div>
+                <div class="faq-answer">No, Orbit is a wellness tool designed to complement professional mental health care. For serious mental health concerns, please consult with a licensed mental health professional.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How much does Orbit cost?</div>
+                <div class="faq-answer">Orbit offers a free tier with core features and a premium subscription for advanced AI coaching, unlimited cloud sync, and additional mindfulness content.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can I delete my data?</div>
+                <div class="faq-answer">Absolutely! You can delete all your data at any time from the app settings. Once deleted, your data cannot be recovered.</div>
+            </div>
+            
+            <h2>🔗 Important Links</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <span><a href="#">Download on the App Store</a> (Coming Soon)</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🔒</div>
+                    <span><a href="privacy-policy.html">Privacy Policy</a></span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📋</div>
+                    <span><a href="terms-of-service.html">Terms of Service</a></span>
+                </div>
+            </div>
+            
+            <h2>🐛 Report a Bug</h2>
+            <p>If you encounter any issues with the app, please email us at <a href="mailto:jamesbayless995@gmail.com">jamesbayless995@gmail.com</a> with:</p>
+            <ul style="margin: 15px 0; padding-left: 20px;">
+                <li>Your device model and iOS version</li>
+                <li>App version number</li>
+                <li>Description of the issue</li>
+                <li>Steps to reproduce the problem</li>
+                <li>Screenshots if applicable</li>
+            </ul>
+            
+            <div class="footer">
+                <p>&copy; 2025 Orbit Mental Health. All rights reserved.</p>
+                <p>Made with ❤️ for mental wellness</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
